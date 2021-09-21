@@ -1,0 +1,18 @@
+header {
+    background: radial-gradient(#fc4e03,red);
+    font-family: "Joti One", cursive, Helvetica;
+    font-size: 32px;
+    text-align: center;
+    width: 100vw;
+    height: 20vh;
+    padding: 0;
+    margin:0;
+  }
+body {
+    padding:0;
+     margin:0;
+     background-repeat: no-repeat;
+     background-image:url('images/background2.jpg');
+     background-size: cover;
+     background-attachment: fixed;
+}
