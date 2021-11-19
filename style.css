@@ -1,13 +1,17 @@
 header {
-    background: radial-gradient(#fc4e03,red);
+    background: radial-gradient(#090909,black);
     font-family: "Joti One", cursive, Helvetica;
-    font-size: 32px;
+    font-size: 64px;
     text-align: center;
     width: 100vw;
     height: 20vh;
     padding: 0;
-    margin:0;
+    margin: 0;
   }
+.header-text {
+  padding-top: 2.5vh;
+  color:white;
+}
 body {
     padding:0;
      margin:0;
@@ -15,4 +19,31 @@ body {
      background-image:url('images/background2.jpg');
      background-size: cover;
      background-attachment: fixed;
+}
+nav {
+  overflow: hidden;
+  background-color: #333;
+}
+nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 19px;
+  text-decoration: none;
+  font-size: 19px;
+}
+nav a:hover {
+  background-color: #ddd;
+}
+.activenav {
+  background-color: #04AA6D;
+}
+.navright {
+ /* float:right; */
+}
+ @media only screen and (max-width:720px) {
+  header {
+    font-size: 24px;
+    height: 10vh;
+  }
 }
